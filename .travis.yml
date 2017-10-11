@@ -1,0 +1,12 @@
+sudo: required
+
+language: java
+
+branches:
+  only:
+    - master
+
+script:
+  - cd src/
+  - cd ../
+
