@@ -10,7 +10,7 @@ deploy:
   provider: releases
   api_key:
     secure: TMeGaOwdrAeghY54a8YUbKLhRBh1MhD5z6zSfWIM9zkqzL58mQUpQthbVOR5nL+LNwghCZ90d9V+pIp9eR4dZM23KsNJqip57z3gVn/i/SBzpiVfjc8bw8sAHrbRdwpjD3vBaSW42IhPfWf157YlDV+7BtgR3NlbSBziRGjTwQJK13olTWl1bUQFgTeyTrRUE1X5t/U0pGQhuUkUzrg9LLq5QfQ+S9lwLta0njCJYW/2oYozVO/kzMEJOCY5dc8NBG9ATN++4q6QtyZxbKxaVmPGMyhCNM+S4e/IO1XYz5tExSL+xdeQ/CameVtjmeE3V8RqFN/OucKSLycq9cHMdYzKxmB6zeP74ZWsRSSIIrfe7zGz9vr5K47ZPYYVgvE5zhOKb5Oxg9rj3dms1NEWyidLeel2mTaEunwGOAWnH5slLlOXzAiCO4dFOMRqlYbwibbv8Zh7NOUOcIwceqQVVZhIHQu2NBoa66ONgyLPj3aXJ6DJ2+Gz+xOn8jM7oCB8mmxTkvF/nN0PuLDtlm2EwqwpVFLNorI7vbeFu0aIrNpDN4bUv+EGuVnic75O3xNWr5VitqQdCB/HG5WPw/riSXwGf5ds2Vq75QATWUO64atbS0jwQ6zCWG+0NZCgVSXFJnaFMDSyXM2DZDVADpuyZdDxJT66rpCXaE9IUo9YP98=
-  name: Build $(date +'%d.%m.%Y %R')
+  name: Build Travis $(date +'%d.%m.%Y %R')
   on:
     repo: PineauSullivan/Travis_Release
 
